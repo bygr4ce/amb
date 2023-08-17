@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Public Bible | Read</title>
+  <link href='manifest.json' rel='manifest'>
+  <link href="assets/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icon.png">
+  <link rel="icon" type="image/png" sizes="any" href="images/icon.png">
+
+  <script src="assets/angular.min.js"></script>
+
+  <style>
+  #immersive-finder input {
+    width: 14%;
+  }
+  </style>
+
+</head>
+
+<body ng-app="passagesApp" ng-controller="biblePassagesCtrl">
+
+  <main class="container mb-5" id="passage-selector">
+    <div class="my-1" id="display-passage">
+      <h1 class="mt-3">{{indicator}}</h1>
+      <hr class="my-1">
+      <p id="display-quote" class="immersive small">
+        <span ng-repeat="p in passage">{{p.text}} </span> 
+      </p>
+    </div>
+    <div>
+      <form id="immersive-finder" action="">
+        <input required type="number" placeholder="book" name="book">
+        <input required type="number" placeholder="st ch" name="sc">
+        <input required type="number" placeholder="st v" name="sv">
+        <input required type="number" placeholder="end c" name="ec">
+        <input required type="number" placeholder="end v" name="ev">
+        <input type="submit" value="->">
+      </form>
+    </div>
+    
+
+  </div>
+  <script src="functions.js"></script>
+  <script src="passages.js"></script>
+  <script src="assets/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

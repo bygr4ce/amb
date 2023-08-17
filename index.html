@@ -1,0 +1,2161 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Public Bible</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href='manifest.json' rel='manifest'>
+<link href="assets/bootstrap.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="any" href="images/icon.png">
+<link rel="icon" type="image/png" sizes="any" href="images/icon.png">
+
+
+<body ng-app="versesApp" ng-controller="bibleVersesCtrl">
+
+  <header class="mb-3 " ng-include="'header.html'"></header>
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-12">
+
+        <div class="accordion accordion-flush" id="passage-selector">
+
+          <table class="col-12">
+            <tr>
+              <td stylw="width: 60%">
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{1}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{1}}" aria-expanded="true" aria-controls="flush-collapse-{{1}}">
+                      1 ኦሪት ዘፍጥረት
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{1}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=1&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=22&sv=1&ec=22&ev=999'>22</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=23&sv=1&ec=23&ev=999'>23</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=24&sv=1&ec=24&ev=999'>24</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=25&sv=1&ec=25&ev=999'>25</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=26&sv=1&ec=26&ev=999'>26</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=27&sv=1&ec=27&ev=999'>27</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=28&sv=1&ec=28&ev=999'>28</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=29&sv=1&ec=29&ev=999'>29</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=30&sv=1&ec=30&ev=999'>30</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=31&sv=1&ec=31&ev=999'>31</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=32&sv=1&ec=32&ev=999'>32</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=33&sv=1&ec=33&ev=999'>33</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=34&sv=1&ec=34&ev=999'>34</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=35&sv=1&ec=35&ev=999'>35</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=36&sv=1&ec=36&ev=999'>36</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=37&sv=1&ec=37&ev=999'>37</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=38&sv=1&ec=38&ev=999'>38</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=39&sv=1&ec=39&ev=999'>39</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=40&sv=1&ec=40&ev=999'>40</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=41&sv=1&ec=41&ev=999'>41</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=42&sv=1&ec=42&ev=999'>42</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=43&sv=1&ec=43&ev=999'>43</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=44&sv=1&ec=44&ev=999'>44</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=45&sv=1&ec=45&ev=999'>45</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=46&sv=1&ec=46&ev=999'>46</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=47&sv=1&ec=47&ev=999'>47</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=48&sv=1&ec=48&ev=999'>48</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=49&sv=1&ec=49&ev=999'>49</a>
+                      <a class='chapter-link' href='read.html?book=1&sc=50&sv=1&ec=50&ev=999'>50</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{2}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{2}}" aria-expanded="true" aria-controls="flush-collapse-{{2}}">
+                      2 ኦሪት ዘፀአት
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{2}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=2&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=22&sv=1&ec=22&ev=999'>22</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=23&sv=1&ec=23&ev=999'>23</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=24&sv=1&ec=24&ev=999'>24</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=25&sv=1&ec=25&ev=999'>25</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=26&sv=1&ec=26&ev=999'>26</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=27&sv=1&ec=27&ev=999'>27</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=28&sv=1&ec=28&ev=999'>28</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=29&sv=1&ec=29&ev=999'>29</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=30&sv=1&ec=30&ev=999'>30</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=31&sv=1&ec=31&ev=999'>31</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=32&sv=1&ec=32&ev=999'>32</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=33&sv=1&ec=33&ev=999'>33</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=34&sv=1&ec=34&ev=999'>34</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=35&sv=1&ec=35&ev=999'>35</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=36&sv=1&ec=36&ev=999'>36</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=37&sv=1&ec=37&ev=999'>37</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=38&sv=1&ec=38&ev=999'>38</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=39&sv=1&ec=39&ev=999'>39</a>
+                      <a class='chapter-link' href='read.html?book=2&sc=40&sv=1&ec=40&ev=999'>40</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{3}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{3}}" aria-expanded="true" aria-controls="flush-collapse-{{3}}">
+                      3 ኦሪት ዘሌዋውያን
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{3}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=3&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=22&sv=1&ec=22&ev=999'>22</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=23&sv=1&ec=23&ev=999'>23</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=24&sv=1&ec=24&ev=999'>24</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=25&sv=1&ec=25&ev=999'>25</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=26&sv=1&ec=26&ev=999'>26</a>
+                      <a class='chapter-link' href='read.html?book=3&sc=27&sv=1&ec=27&ev=999'>27</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{4}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{4}}" aria-expanded="true" aria-controls="flush-collapse-{{4}}">
+                      4 ኦሪት ዘሁልቁ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{4}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=4&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=22&sv=1&ec=22&ev=999'>22</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=23&sv=1&ec=23&ev=999'>23</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=24&sv=1&ec=24&ev=999'>24</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=25&sv=1&ec=25&ev=999'>25</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=26&sv=1&ec=26&ev=999'>26</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=27&sv=1&ec=27&ev=999'>27</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=28&sv=1&ec=28&ev=999'>28</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=29&sv=1&ec=29&ev=999'>29</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=30&sv=1&ec=30&ev=999'>30</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=31&sv=1&ec=31&ev=999'>31</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=32&sv=1&ec=32&ev=999'>32</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=33&sv=1&ec=33&ev=999'>33</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=34&sv=1&ec=34&ev=999'>34</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=35&sv=1&ec=35&ev=999'>35</a>
+                      <a class='chapter-link' href='read.html?book=4&sc=36&sv=1&ec=36&ev=999'>36</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{5}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{5}}" aria-expanded="true" aria-controls="flush-collapse-{{5}}">
+                      5 ኦሪት ዘዳግም
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{5}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=5&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=22&sv=1&ec=22&ev=999'>22</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=23&sv=1&ec=23&ev=999'>23</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=24&sv=1&ec=24&ev=999'>24</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=25&sv=1&ec=25&ev=999'>25</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=26&sv=1&ec=26&ev=999'>26</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=27&sv=1&ec=27&ev=999'>27</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=28&sv=1&ec=28&ev=999'>28</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=29&sv=1&ec=29&ev=999'>29</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=30&sv=1&ec=30&ev=999'>30</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=31&sv=1&ec=31&ev=999'>31</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=32&sv=1&ec=32&ev=999'>32</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=33&sv=1&ec=33&ev=999'>33</a>
+                      <a class='chapter-link' href='read.html?book=5&sc=34&sv=1&ec=34&ev=999'>34</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{6}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{6}}" aria-expanded="true" aria-controls="flush-collapse-{{6}}">
+                      6 መፅሐፈ ኢያሱ ወልደ ነዌ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{6}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=6&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=22&sv=1&ec=22&ev=999'>22</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=23&sv=1&ec=23&ev=999'>23</a>
+                      <a class='chapter-link' href='read.html?book=6&sc=24&sv=1&ec=24&ev=999'>24</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{7}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{7}}" aria-expanded="true" aria-controls="flush-collapse-{{7}}">
+                      7 መፅሐፈ መሳፍንት
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{7}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=7&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=7&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=7&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=7&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=7&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=7&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=7&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=7&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=7&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=7&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=7&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=7&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=7&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=7&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=7&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=7&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=7&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=7&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=7&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=7&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=7&sc=21&sv=1&ec=21&ev=999'>21</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{8}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{8}}" aria-expanded="true" aria-controls="flush-collapse-{{8}}">
+                      8 መፅሐፈ ሩት
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{8}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=8&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=8&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=8&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=8&sc=4&sv=1&ec=4&ev=999'>4</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{9}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{9}}" aria-expanded="true" aria-controls="flush-collapse-{{9}}">
+                      9 መፅሐፈ ሳሙኤል ቀዳማዊ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{9}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=9&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=22&sv=1&ec=22&ev=999'>22</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=23&sv=1&ec=23&ev=999'>23</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=24&sv=1&ec=24&ev=999'>24</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=25&sv=1&ec=25&ev=999'>25</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=26&sv=1&ec=26&ev=999'>26</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=27&sv=1&ec=27&ev=999'>27</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=28&sv=1&ec=28&ev=999'>28</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=29&sv=1&ec=29&ev=999'>29</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=30&sv=1&ec=30&ev=999'>30</a>
+                      <a class='chapter-link' href='read.html?book=9&sc=31&sv=1&ec=31&ev=999'>31</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{10}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{10}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{10}}">
+                      10 መፅሐፈ ሳሙኤል ካልእ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{10}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=10&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=22&sv=1&ec=22&ev=999'>22</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=23&sv=1&ec=23&ev=999'>23</a>
+                      <a class='chapter-link' href='read.html?book=10&sc=24&sv=1&ec=24&ev=999'>24</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{11}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{11}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{11}}">
+                      11 መፅሐፈ ነገስት ቀዳማዊ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{11}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=11&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=11&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=11&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=11&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=11&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=11&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=11&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=11&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=11&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=11&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=11&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=11&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=11&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=11&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=11&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=11&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=11&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=11&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=11&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=11&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=11&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=11&sc=22&sv=1&ec=22&ev=999'>22</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{12}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{12}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{12}}">
+                      12 መፅሐፈ ነገስት ካልእ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{12}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=12&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=22&sv=1&ec=22&ev=999'>22</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=23&sv=1&ec=23&ev=999'>23</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=24&sv=1&ec=24&ev=999'>24</a>
+                      <a class='chapter-link' href='read.html?book=12&sc=25&sv=1&ec=25&ev=999'>25</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{13}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{13}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{13}}">
+                      13 መፅሐፈ ዜና መዋእል ቀዳማዊ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{13}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=13&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=22&sv=1&ec=22&ev=999'>22</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=23&sv=1&ec=23&ev=999'>23</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=24&sv=1&ec=24&ev=999'>24</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=25&sv=1&ec=25&ev=999'>25</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=26&sv=1&ec=26&ev=999'>26</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=27&sv=1&ec=27&ev=999'>27</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=28&sv=1&ec=28&ev=999'>28</a>
+                      <a class='chapter-link' href='read.html?book=13&sc=29&sv=1&ec=29&ev=999'>29</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{14}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{14}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{14}}">
+                      14 መፅሐፈ ዜና መዋእል ካልእ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{14}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=14&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=22&sv=1&ec=22&ev=999'>22</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=23&sv=1&ec=23&ev=999'>23</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=24&sv=1&ec=24&ev=999'>24</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=25&sv=1&ec=25&ev=999'>25</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=26&sv=1&ec=26&ev=999'>26</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=27&sv=1&ec=27&ev=999'>27</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=28&sv=1&ec=28&ev=999'>28</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=29&sv=1&ec=29&ev=999'>29</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=30&sv=1&ec=30&ev=999'>30</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=31&sv=1&ec=31&ev=999'>31</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=32&sv=1&ec=32&ev=999'>32</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=33&sv=1&ec=33&ev=999'>33</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=34&sv=1&ec=34&ev=999'>34</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=35&sv=1&ec=35&ev=999'>35</a>
+                      <a class='chapter-link' href='read.html?book=14&sc=36&sv=1&ec=36&ev=999'>36</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{15}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{15}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{15}}">
+                      15 መፅሐፈ እዝራ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{15}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=15&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=15&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=15&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=15&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=15&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=15&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=15&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=15&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=15&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=15&sc=10&sv=1&ec=10&ev=999'>10</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{16}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{16}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{16}}">
+                      16 መፅሐፈ ነህምያ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{16}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=16&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=16&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=16&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=16&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=16&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=16&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=16&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=16&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=16&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=16&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=16&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=16&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=16&sc=13&sv=1&ec=13&ev=999'>13</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{17}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{17}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{17}}">
+                      17 መፅሐፈ አስቴር
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{17}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=17&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=17&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=17&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=17&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=17&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=17&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=17&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=17&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=17&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=17&sc=10&sv=1&ec=10&ev=999'>10</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{18}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{18}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{18}}">
+                      18 መፅሐፈ ኢዮብ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{18}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=18&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=22&sv=1&ec=22&ev=999'>22</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=23&sv=1&ec=23&ev=999'>23</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=24&sv=1&ec=24&ev=999'>24</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=25&sv=1&ec=25&ev=999'>25</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=26&sv=1&ec=26&ev=999'>26</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=27&sv=1&ec=27&ev=999'>27</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=28&sv=1&ec=28&ev=999'>28</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=29&sv=1&ec=29&ev=999'>29</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=30&sv=1&ec=30&ev=999'>30</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=31&sv=1&ec=31&ev=999'>31</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=32&sv=1&ec=32&ev=999'>32</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=33&sv=1&ec=33&ev=999'>33</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=34&sv=1&ec=34&ev=999'>34</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=35&sv=1&ec=35&ev=999'>35</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=36&sv=1&ec=36&ev=999'>36</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=37&sv=1&ec=37&ev=999'>37</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=38&sv=1&ec=38&ev=999'>38</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=39&sv=1&ec=39&ev=999'>39</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=40&sv=1&ec=40&ev=999'>40</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=41&sv=1&ec=41&ev=999'>41</a>
+                      <a class='chapter-link' href='read.html?book=18&sc=42&sv=1&ec=42&ev=999'>42</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{19}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{19}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{19}}">
+                      19 መዝሙረ ዳዊት
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{19}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=19&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=22&sv=1&ec=22&ev=999'>22</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=23&sv=1&ec=23&ev=999'>23</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=24&sv=1&ec=24&ev=999'>24</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=25&sv=1&ec=25&ev=999'>25</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=26&sv=1&ec=26&ev=999'>26</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=27&sv=1&ec=27&ev=999'>27</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=28&sv=1&ec=28&ev=999'>28</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=29&sv=1&ec=29&ev=999'>29</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=30&sv=1&ec=30&ev=999'>30</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=31&sv=1&ec=31&ev=999'>31</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=32&sv=1&ec=32&ev=999'>32</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=33&sv=1&ec=33&ev=999'>33</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=34&sv=1&ec=34&ev=999'>34</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=35&sv=1&ec=35&ev=999'>35</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=36&sv=1&ec=36&ev=999'>36</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=37&sv=1&ec=37&ev=999'>37</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=38&sv=1&ec=38&ev=999'>38</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=39&sv=1&ec=39&ev=999'>39</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=40&sv=1&ec=40&ev=999'>40</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=41&sv=1&ec=41&ev=999'>41</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=42&sv=1&ec=42&ev=999'>42</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=43&sv=1&ec=43&ev=999'>43</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=44&sv=1&ec=44&ev=999'>44</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=45&sv=1&ec=45&ev=999'>45</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=46&sv=1&ec=46&ev=999'>46</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=47&sv=1&ec=47&ev=999'>47</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=48&sv=1&ec=48&ev=999'>48</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=49&sv=1&ec=49&ev=999'>49</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=50&sv=1&ec=50&ev=999'>50</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=51&sv=1&ec=51&ev=999'>51</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=52&sv=1&ec=52&ev=999'>52</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=53&sv=1&ec=53&ev=999'>53</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=54&sv=1&ec=54&ev=999'>54</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=55&sv=1&ec=55&ev=999'>55</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=56&sv=1&ec=56&ev=999'>56</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=57&sv=1&ec=57&ev=999'>57</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=58&sv=1&ec=58&ev=999'>58</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=59&sv=1&ec=59&ev=999'>59</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=60&sv=1&ec=60&ev=999'>60</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=61&sv=1&ec=61&ev=999'>61</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=62&sv=1&ec=62&ev=999'>62</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=63&sv=1&ec=63&ev=999'>63</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=64&sv=1&ec=64&ev=999'>64</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=65&sv=1&ec=65&ev=999'>65</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=66&sv=1&ec=66&ev=999'>66</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=67&sv=1&ec=67&ev=999'>67</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=68&sv=1&ec=68&ev=999'>68</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=69&sv=1&ec=69&ev=999'>69</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=70&sv=1&ec=70&ev=999'>70</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=71&sv=1&ec=71&ev=999'>71</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=72&sv=1&ec=72&ev=999'>72</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=73&sv=1&ec=73&ev=999'>73</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=74&sv=1&ec=74&ev=999'>74</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=75&sv=1&ec=75&ev=999'>75</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=76&sv=1&ec=76&ev=999'>76</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=77&sv=1&ec=77&ev=999'>77</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=78&sv=1&ec=78&ev=999'>78</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=79&sv=1&ec=79&ev=999'>79</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=80&sv=1&ec=80&ev=999'>80</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=81&sv=1&ec=81&ev=999'>81</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=82&sv=1&ec=82&ev=999'>82</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=83&sv=1&ec=83&ev=999'>83</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=84&sv=1&ec=84&ev=999'>84</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=85&sv=1&ec=85&ev=999'>85</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=86&sv=1&ec=86&ev=999'>86</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=87&sv=1&ec=87&ev=999'>87</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=88&sv=1&ec=88&ev=999'>88</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=89&sv=1&ec=89&ev=999'>89</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=90&sv=1&ec=90&ev=999'>90</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=91&sv=1&ec=91&ev=999'>91</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=92&sv=1&ec=92&ev=999'>92</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=93&sv=1&ec=93&ev=999'>93</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=94&sv=1&ec=94&ev=999'>94</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=95&sv=1&ec=95&ev=999'>95</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=96&sv=1&ec=96&ev=999'>96</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=97&sv=1&ec=97&ev=999'>97</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=98&sv=1&ec=98&ev=999'>98</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=99&sv=1&ec=99&ev=999'>99</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=100&sv=1&ec=100&ev=999'>100</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=101&sv=1&ec=101&ev=999'>101</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=102&sv=1&ec=102&ev=999'>102</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=103&sv=1&ec=103&ev=999'>103</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=104&sv=1&ec=104&ev=999'>104</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=105&sv=1&ec=105&ev=999'>105</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=106&sv=1&ec=106&ev=999'>106</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=107&sv=1&ec=107&ev=999'>107</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=108&sv=1&ec=108&ev=999'>108</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=109&sv=1&ec=109&ev=999'>109</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=110&sv=1&ec=110&ev=999'>110</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=111&sv=1&ec=111&ev=999'>111</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=112&sv=1&ec=112&ev=999'>112</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=113&sv=1&ec=113&ev=999'>113</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=114&sv=1&ec=114&ev=999'>114</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=115&sv=1&ec=115&ev=999'>115</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=116&sv=1&ec=116&ev=999'>116</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=117&sv=1&ec=117&ev=999'>117</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=118&sv=1&ec=118&ev=999'>118</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=119&sv=1&ec=119&ev=999'>119</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=120&sv=1&ec=120&ev=999'>120</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=121&sv=1&ec=121&ev=999'>121</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=122&sv=1&ec=122&ev=999'>122</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=123&sv=1&ec=123&ev=999'>123</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=124&sv=1&ec=124&ev=999'>124</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=125&sv=1&ec=125&ev=999'>125</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=126&sv=1&ec=126&ev=999'>126</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=127&sv=1&ec=127&ev=999'>127</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=128&sv=1&ec=128&ev=999'>128</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=129&sv=1&ec=129&ev=999'>129</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=130&sv=1&ec=130&ev=999'>130</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=131&sv=1&ec=131&ev=999'>131</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=132&sv=1&ec=132&ev=999'>132</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=133&sv=1&ec=133&ev=999'>133</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=134&sv=1&ec=134&ev=999'>134</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=135&sv=1&ec=135&ev=999'>135</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=136&sv=1&ec=136&ev=999'>136</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=137&sv=1&ec=137&ev=999'>137</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=138&sv=1&ec=138&ev=999'>138</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=139&sv=1&ec=139&ev=999'>139</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=140&sv=1&ec=140&ev=999'>140</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=141&sv=1&ec=141&ev=999'>141</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=142&sv=1&ec=142&ev=999'>142</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=143&sv=1&ec=143&ev=999'>143</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=144&sv=1&ec=144&ev=999'>144</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=145&sv=1&ec=145&ev=999'>145</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=146&sv=1&ec=146&ev=999'>146</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=147&sv=1&ec=147&ev=999'>147</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=148&sv=1&ec=148&ev=999'>148</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=149&sv=1&ec=149&ev=999'>149</a>
+                      <a class='chapter-link' href='read.html?book=19&sc=150&sv=1&ec=150&ev=999'>150</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{20}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{20}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{20}}">
+                      20 መፅሐፈ ምሳሌ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{20}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=20&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=22&sv=1&ec=22&ev=999'>22</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=23&sv=1&ec=23&ev=999'>23</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=24&sv=1&ec=24&ev=999'>24</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=25&sv=1&ec=25&ev=999'>25</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=26&sv=1&ec=26&ev=999'>26</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=27&sv=1&ec=27&ev=999'>27</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=28&sv=1&ec=28&ev=999'>28</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=29&sv=1&ec=29&ev=999'>29</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=30&sv=1&ec=30&ev=999'>30</a>
+                      <a class='chapter-link' href='read.html?book=20&sc=31&sv=1&ec=31&ev=999'>31</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{21}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{21}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{21}}">
+                      21 መፅሐፈ መክብብ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{21}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=21&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=21&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=21&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=21&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=21&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=21&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=21&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=21&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=21&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=21&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=21&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=21&sc=12&sv=1&ec=12&ev=999'>12</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{22}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{22}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{22}}">
+                      22 መሀልየ መሀልይ ዘሰሎሞን
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{22}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=22&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=22&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=22&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=22&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=22&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=22&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=22&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=22&sc=8&sv=1&ec=8&ev=999'>8</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{23}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{23}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{23}}">
+                      23 ትንቢተ ኢሳይያስ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{23}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=23&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=22&sv=1&ec=22&ev=999'>22</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=23&sv=1&ec=23&ev=999'>23</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=24&sv=1&ec=24&ev=999'>24</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=25&sv=1&ec=25&ev=999'>25</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=26&sv=1&ec=26&ev=999'>26</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=27&sv=1&ec=27&ev=999'>27</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=28&sv=1&ec=28&ev=999'>28</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=29&sv=1&ec=29&ev=999'>29</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=30&sv=1&ec=30&ev=999'>30</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=31&sv=1&ec=31&ev=999'>31</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=32&sv=1&ec=32&ev=999'>32</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=33&sv=1&ec=33&ev=999'>33</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=34&sv=1&ec=34&ev=999'>34</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=35&sv=1&ec=35&ev=999'>35</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=36&sv=1&ec=36&ev=999'>36</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=37&sv=1&ec=37&ev=999'>37</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=38&sv=1&ec=38&ev=999'>38</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=39&sv=1&ec=39&ev=999'>39</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=40&sv=1&ec=40&ev=999'>40</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=41&sv=1&ec=41&ev=999'>41</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=42&sv=1&ec=42&ev=999'>42</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=43&sv=1&ec=43&ev=999'>43</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=44&sv=1&ec=44&ev=999'>44</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=45&sv=1&ec=45&ev=999'>45</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=46&sv=1&ec=46&ev=999'>46</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=47&sv=1&ec=47&ev=999'>47</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=48&sv=1&ec=48&ev=999'>48</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=49&sv=1&ec=49&ev=999'>49</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=50&sv=1&ec=50&ev=999'>50</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=51&sv=1&ec=51&ev=999'>51</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=52&sv=1&ec=52&ev=999'>52</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=53&sv=1&ec=53&ev=999'>53</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=54&sv=1&ec=54&ev=999'>54</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=55&sv=1&ec=55&ev=999'>55</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=56&sv=1&ec=56&ev=999'>56</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=57&sv=1&ec=57&ev=999'>57</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=58&sv=1&ec=58&ev=999'>58</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=59&sv=1&ec=59&ev=999'>59</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=60&sv=1&ec=60&ev=999'>60</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=61&sv=1&ec=61&ev=999'>61</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=62&sv=1&ec=62&ev=999'>62</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=63&sv=1&ec=63&ev=999'>63</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=64&sv=1&ec=64&ev=999'>64</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=65&sv=1&ec=65&ev=999'>65</a>
+                      <a class='chapter-link' href='read.html?book=23&sc=66&sv=1&ec=66&ev=999'>66</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{24}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{24}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{24}}">
+                      24 ትንቢተ ኤርምያስ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{24}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=24&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=22&sv=1&ec=22&ev=999'>22</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=23&sv=1&ec=23&ev=999'>23</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=24&sv=1&ec=24&ev=999'>24</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=25&sv=1&ec=25&ev=999'>25</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=26&sv=1&ec=26&ev=999'>26</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=27&sv=1&ec=27&ev=999'>27</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=28&sv=1&ec=28&ev=999'>28</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=29&sv=1&ec=29&ev=999'>29</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=30&sv=1&ec=30&ev=999'>30</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=31&sv=1&ec=31&ev=999'>31</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=32&sv=1&ec=32&ev=999'>32</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=33&sv=1&ec=33&ev=999'>33</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=34&sv=1&ec=34&ev=999'>34</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=35&sv=1&ec=35&ev=999'>35</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=36&sv=1&ec=36&ev=999'>36</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=37&sv=1&ec=37&ev=999'>37</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=38&sv=1&ec=38&ev=999'>38</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=39&sv=1&ec=39&ev=999'>39</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=40&sv=1&ec=40&ev=999'>40</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=41&sv=1&ec=41&ev=999'>41</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=42&sv=1&ec=42&ev=999'>42</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=43&sv=1&ec=43&ev=999'>43</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=44&sv=1&ec=44&ev=999'>44</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=45&sv=1&ec=45&ev=999'>45</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=46&sv=1&ec=46&ev=999'>46</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=47&sv=1&ec=47&ev=999'>47</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=48&sv=1&ec=48&ev=999'>48</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=49&sv=1&ec=49&ev=999'>49</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=50&sv=1&ec=50&ev=999'>50</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=51&sv=1&ec=51&ev=999'>51</a>
+                      <a class='chapter-link' href='read.html?book=24&sc=52&sv=1&ec=52&ev=999'>52</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{25}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{25}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{25}}">
+                      25 ሰቆቃው ኤርምያስ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{25}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=25&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=25&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=25&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=25&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=25&sc=5&sv=1&ec=5&ev=999'>5</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{26}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{26}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{26}}">
+                      26 ትንቢተ ህዝቅኤል
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{26}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=26&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=22&sv=1&ec=22&ev=999'>22</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=23&sv=1&ec=23&ev=999'>23</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=24&sv=1&ec=24&ev=999'>24</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=25&sv=1&ec=25&ev=999'>25</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=26&sv=1&ec=26&ev=999'>26</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=27&sv=1&ec=27&ev=999'>27</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=28&sv=1&ec=28&ev=999'>28</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=29&sv=1&ec=29&ev=999'>29</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=30&sv=1&ec=30&ev=999'>30</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=31&sv=1&ec=31&ev=999'>31</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=32&sv=1&ec=32&ev=999'>32</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=33&sv=1&ec=33&ev=999'>33</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=34&sv=1&ec=34&ev=999'>34</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=35&sv=1&ec=35&ev=999'>35</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=36&sv=1&ec=36&ev=999'>36</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=37&sv=1&ec=37&ev=999'>37</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=38&sv=1&ec=38&ev=999'>38</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=39&sv=1&ec=39&ev=999'>39</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=40&sv=1&ec=40&ev=999'>40</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=41&sv=1&ec=41&ev=999'>41</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=42&sv=1&ec=42&ev=999'>42</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=43&sv=1&ec=43&ev=999'>43</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=44&sv=1&ec=44&ev=999'>44</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=45&sv=1&ec=45&ev=999'>45</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=46&sv=1&ec=46&ev=999'>46</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=47&sv=1&ec=47&ev=999'>47</a>
+                      <a class='chapter-link' href='read.html?book=26&sc=48&sv=1&ec=48&ev=999'>48</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{27}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{27}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{27}}">
+                      27 ትንቢተ ዳንኤል
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{27}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=27&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=27&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=27&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=27&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=27&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=27&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=27&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=27&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=27&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=27&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=27&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=27&sc=12&sv=1&ec=12&ev=999'>12</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{28}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{28}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{28}}">
+                      28 ትንቢተ ሆሴእ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{28}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=28&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=28&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=28&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=28&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=28&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=28&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=28&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=28&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=28&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=28&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=28&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=28&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=28&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=28&sc=14&sv=1&ec=14&ev=999'>14</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{29}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{29}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{29}}">
+                      29 ትንቢተ ኢዮኤል
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{29}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=29&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=29&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=29&sc=3&sv=1&ec=3&ev=999'>3</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{30}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{30}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{30}}">
+                      30 ትንቢተ አሞፅ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{30}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=30&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=30&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=30&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=30&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=30&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=30&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=30&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=30&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=30&sc=9&sv=1&ec=9&ev=999'>9</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{31}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{31}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{31}}">
+                      31 ትንቢተ አብድዩ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{31}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=31&sc=1&sv=1&ec=1&ev=999'>1</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{32}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{32}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{32}}">
+                      32 ትንቢተ ዮናስ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{32}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=32&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=32&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=32&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=32&sc=4&sv=1&ec=4&ev=999'>4</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{33}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{33}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{33}}">
+                      33 ትንቢተ ሚክያስ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{33}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=33&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=33&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=33&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=33&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=33&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=33&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=33&sc=7&sv=1&ec=7&ev=999'>7</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{34}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{34}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{34}}">
+                      34 ትንቢተ ናሆም
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{34}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=34&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=34&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=34&sc=3&sv=1&ec=3&ev=999'>3</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{35}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{35}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{35}}">
+                      35 ትንቢተ እንባቆም
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{35}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=35&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=35&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=35&sc=3&sv=1&ec=3&ev=999'>3</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{36}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{36}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{36}}">
+                      36 ትንቢተ ሶፎንያስ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{36}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=36&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=36&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=36&sc=3&sv=1&ec=3&ev=999'>3</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{37}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{37}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{37}}">
+                      37 ትንቢተ ሐጌ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{37}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=37&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=37&sc=2&sv=1&ec=2&ev=999'>2</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{38}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{38}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{38}}">
+                      38 ትንቢተ ዘካርያስ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{38}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=38&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=38&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=38&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=38&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=38&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=38&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=38&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=38&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=38&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=38&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=38&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=38&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=38&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=38&sc=14&sv=1&ec=14&ev=999'>14</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{39}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{39}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{39}}">
+                      39 ትንቢተ ሚልክያስ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{39}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=39&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=39&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=39&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=39&sc=4&sv=1&ec=4&ev=999'>4</a>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{40}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{40}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{40}}">
+                      40 የማቴዎስ ወንጌል
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{40}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=40&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=22&sv=1&ec=22&ev=999'>22</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=23&sv=1&ec=23&ev=999'>23</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=24&sv=1&ec=24&ev=999'>24</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=25&sv=1&ec=25&ev=999'>25</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=26&sv=1&ec=26&ev=999'>26</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=27&sv=1&ec=27&ev=999'>27</a>
+                      <a class='chapter-link' href='read.html?book=40&sc=28&sv=1&ec=28&ev=999'>28</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{41}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{41}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{41}}">
+                      41 የማርቆስ ወንጌል
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{41}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=41&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=41&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=41&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=41&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=41&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=41&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=41&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=41&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=41&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=41&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=41&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=41&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=41&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=41&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=41&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=41&sc=16&sv=1&ec=16&ev=999'>16</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{42}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{42}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{42}}">
+                      42 የሉቃስ ወንጌል
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{42}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=42&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=22&sv=1&ec=22&ev=999'>22</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=23&sv=1&ec=23&ev=999'>23</a>
+                      <a class='chapter-link' href='read.html?book=42&sc=24&sv=1&ec=24&ev=999'>24</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{43}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{43}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{43}}">
+                      43 የዮሀንስ ወንጌል
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{43}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=43&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=43&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=43&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=43&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=43&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=43&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=43&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=43&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=43&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=43&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=43&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=43&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=43&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=43&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=43&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=43&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=43&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=43&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=43&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=43&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=43&sc=21&sv=1&ec=21&ev=999'>21</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{44}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{44}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{44}}">
+                      44 የሀዋርያት ስራ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{44}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=44&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=22&sv=1&ec=22&ev=999'>22</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=23&sv=1&ec=23&ev=999'>23</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=24&sv=1&ec=24&ev=999'>24</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=25&sv=1&ec=25&ev=999'>25</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=26&sv=1&ec=26&ev=999'>26</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=27&sv=1&ec=27&ev=999'>27</a>
+                      <a class='chapter-link' href='read.html?book=44&sc=28&sv=1&ec=28&ev=999'>28</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{45}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{45}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{45}}">
+                      45 ወደ ሮሜ ሰዎች
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{45}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=45&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=45&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=45&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=45&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=45&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=45&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=45&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=45&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=45&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=45&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=45&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=45&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=45&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=45&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=45&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=45&sc=16&sv=1&ec=16&ev=999'>16</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{46}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{46}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{46}}">
+                      46 1ኛ ወደ ቆሮንቶስ ሰዎች
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{46}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=46&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=46&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=46&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=46&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=46&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=46&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=46&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=46&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=46&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=46&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=46&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=46&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=46&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=46&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=46&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=46&sc=16&sv=1&ec=16&ev=999'>16</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{47}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{47}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{47}}">
+                      47 2ኛ ወደ ቆሮንቶስ ሰዎች
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{47}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=47&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=47&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=47&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=47&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=47&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=47&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=47&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=47&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=47&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=47&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=47&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=47&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=47&sc=13&sv=1&ec=13&ev=999'>13</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{48}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{48}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{48}}">
+                      48 ወደ ገላትያ ሰዎች
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{48}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=48&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=48&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=48&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=48&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=48&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=48&sc=6&sv=1&ec=6&ev=999'>6</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{49}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{49}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{49}}">
+                      49 ወደ ኤፌሶን ሰዎች
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{49}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=49&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=49&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=49&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=49&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=49&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=49&sc=6&sv=1&ec=6&ev=999'>6</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{50}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{50}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{50}}">
+                      50 ወደ ፊልጵስዩስ ሰዎች
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{50}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=50&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=50&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=50&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=50&sc=4&sv=1&ec=4&ev=999'>4</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{51}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{51}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{51}}">
+                      51 ወደ ቆላስይስ ሰዎች
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{51}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=51&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=51&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=51&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=51&sc=4&sv=1&ec=4&ev=999'>4</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{52}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{52}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{52}}">
+                      52 1ኛ ወደ ተሰሎንቄ ሰዎች
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{52}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=52&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=52&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=52&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=52&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=52&sc=5&sv=1&ec=5&ev=999'>5</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{53}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{53}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{53}}">
+                      53 2ኛ ወደ ተሰሎንቄ ሰዎች
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{53}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=53&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=53&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=53&sc=3&sv=1&ec=3&ev=999'>3</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{54}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{54}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{54}}">
+                      54 1ኛ ወደ ጢሞቴዎስ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{54}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=54&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=54&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=54&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=54&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=54&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=54&sc=6&sv=1&ec=6&ev=999'>6</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{55}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{55}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{55}}">
+                      55 2ኛ ወደ ጢሞቴዎስ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{55}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=55&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=55&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=55&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=55&sc=4&sv=1&ec=4&ev=999'>4</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{56}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{56}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{56}}">
+                      56 ወደ ቲቶ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{56}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=56&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=56&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=56&sc=3&sv=1&ec=3&ev=999'>3</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{57}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{57}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{57}}">
+                      57 ወደ ፊልሞና
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{57}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=57&sc=1&sv=1&ec=1&ev=999'>1</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{58}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{58}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{58}}">
+                      58 ወደ እብራውያን
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{58}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=58&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=58&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=58&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=58&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=58&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=58&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=58&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=58&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=58&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=58&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=58&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=58&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=58&sc=13&sv=1&ec=13&ev=999'>13</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{59}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{59}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{59}}">
+                      59 የያእቆብ መልእክት
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{59}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=59&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=59&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=59&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=59&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=59&sc=5&sv=1&ec=5&ev=999'>5</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{60}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{60}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{60}}">
+                      60 1ኛ የጴጥሮስ መልእክት
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{60}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=60&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=60&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=60&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=60&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=60&sc=5&sv=1&ec=5&ev=999'>5</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{61}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{61}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{61}}">
+                      61 2ኛ የጴጥሮስ መልእክት
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{61}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=61&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=61&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=61&sc=3&sv=1&ec=3&ev=999'>3</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{62}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{62}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{62}}">
+                      62 1ኛ የዮሐንስ መልእክት
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{62}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=62&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=62&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=62&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=62&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=62&sc=5&sv=1&ec=5&ev=999'>5</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{63}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{63}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{63}}">
+                      63 2ኛ የዮሐንስ መልእክት
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{63}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=63&sc=1&sv=1&ec=1&ev=999'>1</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{64}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{64}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{64}}">
+                      64 3ኛ የዮሐንስ መልእክት
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{64}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=64&sc=1&sv=1&ec=1&ev=999'>1</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{65}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{65}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{65}}">
+                      65 የይሁዳ መልእክት
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{65}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=65&sc=1&sv=1&ec=1&ev=999'>1</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-black text-light float-left">
+                  <h2 class="accordion-header" id="flush-heading-{{66}}">
+                    <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse-{{66}}" aria-expanded="true"
+                      aria-controls="flush-collapse-{{66}}">
+                      66 የዮሀንስ ራእይ
+                    </button>
+                  </h2>
+                  <div id="flush-collapse-{{66}}" class="accordion-collapse collapse show"
+                    aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+                    <div class="passage-list accordion-body p-0 mb-2">
+                      <a class='chapter-link' href='read.html?book=66&sc=1&sv=1&ec=1&ev=999'>1</a>
+                      <a class='chapter-link' href='read.html?book=66&sc=2&sv=1&ec=2&ev=999'>2</a>
+                      <a class='chapter-link' href='read.html?book=66&sc=3&sv=1&ec=3&ev=999'>3</a>
+                      <a class='chapter-link' href='read.html?book=66&sc=4&sv=1&ec=4&ev=999'>4</a>
+                      <a class='chapter-link' href='read.html?book=66&sc=5&sv=1&ec=5&ev=999'>5</a>
+                      <a class='chapter-link' href='read.html?book=66&sc=6&sv=1&ec=6&ev=999'>6</a>
+                      <a class='chapter-link' href='read.html?book=66&sc=7&sv=1&ec=7&ev=999'>7</a>
+                      <a class='chapter-link' href='read.html?book=66&sc=8&sv=1&ec=8&ev=999'>8</a>
+                      <a class='chapter-link' href='read.html?book=66&sc=9&sv=1&ec=9&ev=999'>9</a>
+                      <a class='chapter-link' href='read.html?book=66&sc=10&sv=1&ec=10&ev=999'>10</a>
+                      <a class='chapter-link' href='read.html?book=66&sc=11&sv=1&ec=11&ev=999'>11</a>
+                      <a class='chapter-link' href='read.html?book=66&sc=12&sv=1&ec=12&ev=999'>12</a>
+                      <a class='chapter-link' href='read.html?book=66&sc=13&sv=1&ec=13&ev=999'>13</a>
+                      <a class='chapter-link' href='read.html?book=66&sc=14&sv=1&ec=14&ev=999'>14</a>
+                      <a class='chapter-link' href='read.html?book=66&sc=15&sv=1&ec=15&ev=999'>15</a>
+                      <a class='chapter-link' href='read.html?book=66&sc=16&sv=1&ec=16&ev=999'>16</a>
+                      <a class='chapter-link' href='read.html?book=66&sc=17&sv=1&ec=17&ev=999'>17</a>
+                      <a class='chapter-link' href='read.html?book=66&sc=18&sv=1&ec=18&ev=999'>18</a>
+                      <a class='chapter-link' href='read.html?book=66&sc=19&sv=1&ec=19&ev=999'>19</a>
+                      <a class='chapter-link' href='read.html?book=66&sc=20&sv=1&ec=20&ev=999'>20</a>
+                      <a class='chapter-link' href='read.html?book=66&sc=21&sv=1&ec=21&ev=999'>21</a>
+                      <a class='chapter-link' href='read.html?book=66&sc=22&sv=1&ec=22&ev=999'>22</a>
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </table>
+
+
+
+
+
+
+
+        </div>
+
+
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+
+  <script src="assets/angular.min.js"></script>
+  <script src="assets/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script src="functions.js"></script>
+  <script src="verses.js"></script>
+
+</body>
+
+</html>

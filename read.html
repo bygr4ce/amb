@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Public Bible | Read</title>
+  <link href='manifest.json' rel='manifest'>
+  <link href="assets/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icon.png">
+  <link rel="icon" type="image/png" sizes="any" href="images/icon.png">
+
+  <script src="assets/angular.min.js"></script>
+</head>
+
+<body ng-app="passagesApp" ng-controller="biblePassagesCtrl">
+
+  <header class="mb-3 " ng-include="'header.html'"></header>
+
+  <main class="container" id="passage-selector">
+    
+    <div class="mb-5 pb-5" id="display-passage">
+      <h1>{{indicator}}</h1>
+      <hr>
+      <p id="display-quote" class="">
+        <!-- <a class="small verse-text" href="immersive.html?book={{p.b}}&chapter={{p.c}}&v_start={{p.v}}" ng-repeat="p in passage"><sup>{{p.v}}</sup> {{p.text}} </a>  -->
+        <span class="verse-text" ng-repeat="p in passage"><sup>{{p.v}}</sup> {{p.text}} </span> 
+
+      </p>
+      <p id="display-answers" class="fw-bolder fst-italic"></p>
+    </div>
+
+    <div class="fixed-footer d-block container">
+      <div class="clearfix">
+        <div class="float-start">
+          <!-- <span onclick="copyText('display-quote-textarea')" class="btn btn-primary">Copy text</span> -->
+          <!-- <button type="button" onclick="listen('display-passage')" class="btn btn-primary">Listen</button> -->
+          <!-- <button class="btn btn-primary" onclick="goBack()">Go Back</button> -->
+          <button id="quiz-me-btn" class="btn btn-primary" onclick="quizMe('display-quote')">Quiz Me</button>
+
+        </div>
+        <div class="float-end">
+          <a id="reload-btn float-end" class="btn btn-primary" onclick="window.location.reload(true);">Reload</a>
+          <!-- <a href="?book={{book}}&chapter={{chapter}}&v_start={{v_prev}}" class="btn btn-primary">&lt;</a>
+          <a href="?book={{book}}&chapter={{chapter}}&v_start={{v_prev}}&v_end={{v_end}}" class="btn btn-primary">&lt;+</a>
+          <!-- <a href="?book={{book}}&chapter={{chapter}}&v_start={{v_prev}}&v_end={{v_end}}" class="btn btn-primary">-&lt;</a>
+          <a href="?book={{book}}&chapter={{chapter}}&v_start={{v_start}}&v_end={{v_next}}" class="btn btn-primary">&gt;-</a> -->
+          <!-- <a href="?book={{book}}&chapter={{chapter}}&v_start={{v_start}}&v_end={{v_next}}" class="btn btn-primary">+&gt;</a>
+          <a href="?book={{book}}&chapter={{chapter}}&v_start={{v_next}}" class="btn btn-primary">&gt;</a> -->
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="functions.js"></script>
+  <script src="passages.js"></script>
+  <script src="assets/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

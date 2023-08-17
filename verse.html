@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Public Bible</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href='manifest.json' rel='manifest'>
+<link href="assets/bootstrap.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="any" href="images/icon.png">
+<link rel="icon" type="image/png" sizes="any" href="images/icon.png">
+
+
+<body ng-app="passagesApp" ng-controller="biblePassagesCtrl">
+
+  <header class="mb-3 " ng-include="'header.html'"></header>
+  
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12">
+        <form class="">
+          <div class="mb-3">
+            <input ng-model="tagSearch" type="text" class="form-control rounded-0 p-2 fs-4" id="search-field" aria-describedby="search-Help" placeholder="Search" onfocus="expandAll('passage-selector');">
+            <div id="search-Help" class="form-text">Enter a word to find passages about it</div>
+          </div>
+        </form>
+      </div>
+      <div class="col-12">
+
+        
+        <span class="btn-sm rounded-0 border float-end px-2 ml-2" onclick="collapseAll('passage-selector')">- All</span>
+        <span class="btn-sm rounded-0 border float-end px-2 ml-2" onclick="expandAll('passage-selector')">+ All</span>
+
+        <div class="accordion accordion-flush" id="passage-selector">
+          
+          <div class="accordion-item bg-black text-light" ng-repeat="book in bookNames | filterall: tagSearch">
+            <h2 class="accordion-header" id="flush-heading-{{book.id}}">
+              <button class="accordion-button p-2 bg-dark text-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapse-{{book.id}}" aria-expanded="true" aria-controls="flush-collapse-{{book.id}}">
+                {{book.name}}
+              </button>
+            </h2>
+            <div id="flush-collapse-{{book.id}}" class="accordion-collapse collapse show" aria-labelledby="flush-heading-{{book.id}}" data-bs-parent2="#passage-selector">
+              <div class="passage-list accordion-body p-0 mb-2">
+
+                <a href="read.html?book={{book.id}}&sc={{p.sc}}&sv={{p.sv}}&ec={{p.ec}}&ev={{p.ev}}" ng-repeat="p in book.passages | filterall: tagSearch">
+                  <small ng-if="!$last">{{p.title}} &bull; </small>
+                  <small ng-if="$last">{{p.title}}</small>
+                </a>
+  
+              </div>
+            </div>
+          </div>
+  
+        </div>
+  
+  
+      </div>
+    </div>
+  
+  </div>
+
+</div>
+
+<script src="assets/angular.min.js"></script>
+<script src="assets/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+<script src="functions.js"></script>
+<script src="passages.js"></script>
+
+</body>
+
+</html>
